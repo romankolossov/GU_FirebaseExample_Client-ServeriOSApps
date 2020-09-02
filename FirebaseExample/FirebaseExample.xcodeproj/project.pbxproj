@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		801428B0860CB28485ADFA42 /* Pods_FirebaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97360ABAB3E25979A2414D39 /* Pods_FirebaseExample.framework */; };
-		C86A3E4C24FECF530056C086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A3E4B24FECF530056C086 /* AppDelegate.swift */; };
-		C86A3E4E24FECF530056C086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A3E4D24FECF530056C086 /* SceneDelegate.swift */; };
 		C86A3E5524FECF550056C086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86A3E5424FECF550056C086 /* Assets.xcassets */; };
 		C86A3E5824FECF550056C086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86A3E5624FECF550056C086 /* LaunchScreen.storyboard */; };
 		C8B27BE124FF6A0900D51311 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B27BE024FF6A0900D51311 /* GoogleService-Info.plist */; };
@@ -28,6 +26,8 @@
 		C8B27C0524FF907000D51311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B27BFE24FF907000D51311 /* ViewController.swift */; };
 		C8B27C0624FF907000D51311 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B27BFF24FF907000D51311 /* ViewController+TableView.swift */; };
 		C8B27C0724FF907000D51311 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B27C0124FF907000D51311 /* LoginViewController.swift */; };
+		C8B27C0D24FF9E4300D51311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B27C0C24FF9E4300D51311 /* AppDelegate.swift */; };
+		C8B27C0F24FF9E6500D51311 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B27C0E24FF9E6500D51311 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,6 @@
 		353C1E3CD27CB4E4E73EC37D /* Pods-FirebaseExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseExample.release.xcconfig"; path = "Target Support Files/Pods-FirebaseExample/Pods-FirebaseExample.release.xcconfig"; sourceTree = "<group>"; };
 		97360ABAB3E25979A2414D39 /* Pods_FirebaseExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86A3E4824FECF530056C086 /* FirebaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C86A3E4B24FECF530056C086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C86A3E4D24FECF530056C086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C86A3E5424FECF550056C086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86A3E5724FECF550056C086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86A3E5924FECF550056C086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		C8B27BFE24FF907000D51311 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8B27BFF24FF907000D51311 /* ViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
 		C8B27C0124FF907000D51311 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C8B27C0C24FF9E4300D51311 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B27C0E24FF9E6500D51311 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,8 @@
 		C8B27BDF24FF5DF900D51311 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				C86A3E4B24FECF530056C086 /* AppDelegate.swift */,
-				C86A3E4D24FECF530056C086 /* SceneDelegate.swift */,
+				C8B27C0C24FF9E4300D51311 /* AppDelegate.swift */,
+				C8B27C0E24FF9E6500D51311 /* SceneDelegate.swift */,
 				C86A3E5424FECF550056C086 /* Assets.xcassets */,
 				C86A3E5624FECF550056C086 /* LaunchScreen.storyboard */,
 			);
@@ -316,18 +316,18 @@
 				C8B27C0424FF907000D51311 /* DetailViewController.swift in Sources */,
 				C8B27BEB24FF901E00D51311 /* UserInfoTableViewCell.swift in Sources */,
 				C8B27BE724FF8FFB00D51311 /* NetworkManager.swift in Sources */,
-				C86A3E4C24FECF530056C086 /* AppDelegate.swift in Sources */,
 				C8B27C0524FF907000D51311 /* ViewController.swift in Sources */,
 				C8B27BF524FF904000D51311 /* Company.swift in Sources */,
 				C8B27BF224FF904000D51311 /* FirebaseUser.swift in Sources */,
 				C8B27C0224FF907000D51311 /* BaseViewController.swift in Sources */,
 				C8B27C0624FF907000D51311 /* ViewController+TableView.swift in Sources */,
 				C8B27BE824FF8FFB00D51311 /* Config.swift in Sources */,
+				C8B27C0F24FF9E6500D51311 /* SceneDelegate.swift in Sources */,
 				C8B27BF424FF904000D51311 /* User.swift in Sources */,
 				C8B27BF624FF904000D51311 /* Geo.swift in Sources */,
 				C8B27C0724FF907000D51311 /* LoginViewController.swift in Sources */,
-				C86A3E4E24FECF530056C086 /* SceneDelegate.swift in Sources */,
 				C8B27BF324FF904000D51311 /* Address.swift in Sources */,
+				C8B27C0D24FF9E4300D51311 /* AppDelegate.swift in Sources */,
 				C8B27BE624FF8FFB00D51311 /* RealmManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
