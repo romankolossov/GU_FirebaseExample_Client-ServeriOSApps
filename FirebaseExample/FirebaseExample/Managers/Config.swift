@@ -16,5 +16,5 @@ enum DatabaseType {
 
 enum Config {
     
-    static let databaseType: DatabaseType = .database
+    static let databaseType: DatabaseType = .firestore
 }
