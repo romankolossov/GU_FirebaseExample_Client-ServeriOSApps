@@ -163,11 +163,11 @@
 		C8B27BF724FF907000D51311 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				C8B27BF824FF907000D51311 /* BaseViewController.swift */,
 				C8B27BF924FF907000D51311 /* Main.storyboard */,
 				C8B27BFB24FF907000D51311 /* Detail */,
 				C8B27BFD24FF907000D51311 /* Main */,
 				C8B27C0024FF907000D51311 /* Login */,
+				C8B27BF824FF907000D51311 /* BaseViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
